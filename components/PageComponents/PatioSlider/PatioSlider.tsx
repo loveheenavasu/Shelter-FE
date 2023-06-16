@@ -7,6 +7,9 @@ import { Carousel } from "react-bootstrap";
 import styles from "./PatioSlider.module.scss";
 import Image from "next/image";
 
+
+
+
 const captionStyle = {
   textAlign: "left",
   display: "flex",
@@ -15,7 +18,6 @@ const captionStyle = {
   left: "12%",
   color: "var(--txt-light)",
 };
-
 export default function PatioSlider({ title }) {
   return (
     <div className={styles.wrapper}>
@@ -35,7 +37,14 @@ export default function PatioSlider({ title }) {
                 />
                 {/* <div className={styles.content1} /> */}
               </div>
-              <Carousel.Caption style={captionStyle} className="spacing">
+              <Carousel.Caption style={{
+                textAlign: "left",
+                display: "flex",
+                alignItems: "center",
+                height: "90%",
+                left: "12%",
+                color: "var(--txt-light)",
+              }} className="spacing">
                 <div className="spacing">
                   <h1 className="title">
                     Calgary's largest residential paving stone installer{" "}
@@ -57,7 +66,14 @@ export default function PatioSlider({ title }) {
                 />
                 {/* <div className={styles.content2} /> */}
               </div>
-              <Carousel.Caption style={captionStyle} className="spacing">
+              <Carousel.Caption style={{
+                textAlign: "left",
+                display: "flex",
+                alignItems: "center",
+                height: "90%",
+                left: "12%",
+                color: "var(--txt-light)",
+              }} className="spacing">
                 <div className="spacing">
                   <h2 className="title">
                     Patios, Walkways, Pool Decks, Driveays
@@ -79,7 +95,14 @@ export default function PatioSlider({ title }) {
                 />
                 {/* <div className={styles.content3} /> */}
               </div>
-              <Carousel.Caption style={captionStyle} className="spacing">
+              <Carousel.Caption style={{
+                textAlign: "left",
+                display: "flex",
+                alignItems: "center",
+                height: "90%",
+                left: "12%",
+                color: "var(--txt-light)",
+              }} className="spacing">
                 <div className="spacing">
                   <h2 className="title">take a step outdoors</h2>
                   <p className="subheader tan">

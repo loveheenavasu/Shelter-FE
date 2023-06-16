@@ -1,5 +1,4 @@
 import React from "react"
-import { Container } from "./LayoutComponents"
 import styled from "styled-components"
 
 const Feed = styled.div`
